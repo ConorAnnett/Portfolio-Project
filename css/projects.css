@@ -18,3 +18,24 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (max-width:1204px){
+  .tile {
+    width: 45%;
+    text-align: left;
+    border: 0px;
+  }
+  tile img {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width:800px){
+  .tile {
+    width: 100%;
+    text-align: left;
+    border: 0px;
+  }
+  tile img {
+    margin-left: 0px;
+  }
+}
